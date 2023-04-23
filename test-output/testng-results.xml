@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-23T09:12:45Z" name="Suite" finished-at="2023-04-23T09:13:10Z" duration-ms="24685">
+    <groups>
+    </groups>
+    <test started-at="2023-04-23T09:12:45Z" name="Test" finished-at="2023-04-23T09:13:10Z" duration-ms="24685">
+      <class name="testcase.Logintest">
+        <test-method is-config="true" signature="DataSetup()[pri:0, instance:testcase.Logintest@82ea68c]" started-at="2023-04-23T09:12:45Z" name="DataSetup" finished-at="2023-04-23T09:12:46Z" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataSetup -->
+        <test-method is-config="true" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:testcase.Logintest@82ea68c]" started-at="2023-04-23T09:12:46Z" name="driverSetUp" finished-at="2023-04-23T09:12:49Z" duration-ms="3316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcase.Logintest.Invalidlogin() throws com.codoid.products.exception.FilloException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="Invalidlogin()[pri:0, instance:testcase.Logintest@82ea68c]" started-at="2023-04-23T09:12:49Z" name="Invalidlogin" finished-at="2023-04-23T09:12:58Z" duration-ms="8675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalidlogin -->
+        <test-method is-config="true" signature="FinishTest()[pri:0, instance:testcase.Logintest@82ea68c]" started-at="2023-04-23T09:12:58Z" name="FinishTest" finished-at="2023-04-23T09:12:58Z" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinishTest -->
+        <test-method is-config="true" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:testcase.Logintest@82ea68c]" started-at="2023-04-23T09:12:58Z" name="driverSetUp" finished-at="2023-04-23T09:13:01Z" duration-ms="2824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcase.Logintest.validlogin() throws com.codoid.products.exception.FilloException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="validlogin()[pri:0, instance:testcase.Logintest@82ea68c]" started-at="2023-04-23T09:13:01Z" name="validlogin" finished-at="2023-04-23T09:13:10Z" duration-ms="8553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlogin -->
+        <test-method is-config="true" signature="FinishTest()[pri:0, instance:testcase.Logintest@82ea68c]" started-at="2023-04-23T09:13:10Z" name="FinishTest" finished-at="2023-04-23T09:13:10Z" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinishTest -->
+      </class> <!-- testcase.Logintest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
